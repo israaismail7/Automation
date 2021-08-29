@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="EndToEndSuite" thread-count="1" verbose="1">
+
+    <test name="Shopping">
+        <classes>
+            <class name="CreateNewUser" />
+            <class name="Login" />
+            <class name="SelectBlousesAndAddToCart" />
+            <class name="PaymentAndConfirmation" />
+        </classes>
+    </test>
+
+</suite>
